@@ -19,7 +19,7 @@ public class AuthValidator {
 
         if(Objects.isNull(paramMap) || paramMap.getFirst("client_id").isEmpty() ||
         paramMap.getFirst("client_secret").isEmpty()){
-            message("El client_id y/o client_secret deben ingresarse correctamente");
+            message("El client_id y/o client_secret deben ingresarse correctamente para poder acceder sin novedad");
         }
 
     }
